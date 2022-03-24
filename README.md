@@ -161,7 +161,7 @@ The functional scope of the core platform includes:
 - Aggregating
 - Managing
 - Processing
-- Storaging
+- Storing
 
 health data from different sources.
 
