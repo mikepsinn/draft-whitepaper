@@ -1,34 +1,52 @@
 ---
 description: >-
-CureDAO is a decentralized alliance of individuals, government, businesses,
-  and nonprofits devoted to the minimization of suffering.
+CureDAO is a decentralized autonomous organization of individuals, government, businesses,
+and nonprofits devoted realizing the personalized, precision medicine of 
+the future. 
 ---
+
 ## tl;dr
 
-We are creating an open-source framework that overcomes the traditional economic barriers to cooperation and data-sharing in digital health to achieve this.
+CureDAO's mission is to drive down the cost and increase the speed of clinical research by 1000X. 
+
+To achieve this, we are creating a collaborative framework and novel incentive system that overcomes the 
+traditional competitive economic barriers to cooperation and 
+data-sharing in digital health.
+
+## The WordPress of Health Data
+
+A community built open-source software infrastructure and no-code platform for health applications and researchers to perform easier and more efficient health data analysis.
+
+We provide a basic foundational technology layer to remove barriers for physicians, researchers, clinical 
+researchers, or developers of digital health applications. 
+
+The goal is to have better data:
+- Interoperability
+- Portability
+- Availability
+- Analysis
+- Security
+- Privacy and User Ownership
 
 It consists of two primary components:
 
-1. An Open-Source Platform for Health Data:
+### The Core Framework
+   - Storage
+   - Security
+   - Access Control
+   - De-identified Data Sharing
+   - API with advanced querying capabilities
+### The Plugin Platform
+   - Data import from any source
+   - Data Format Transformation
+   - Data visualisations
+   - Machine learning algorithms
+   - Data analysis solutions
+   - Personalized Health Dashboards
 
-   1. Storage
-   2. Security
-   3. Access Control
-   4. De-identified Data Sharing
-2. A Plugin Framework enabling anyone to create or use plugins that facilitate:
+![The Platform](assets/diagrams/simplified-platform-architecture-diagram.png)
 
-   1. Data from any data source
-   2. New Clinical Discoveries through machine learning
-   3. Personalized Real-Time Decision Suggestions to most effectively treat and prevent diseases
-   4. Data Format Transformation to enable interoperability with any system or application
-   5. Patient Management
-   6. Decentralized Clinical Trial Management
-   7. Precision Medicine
-   8. Large-scale, low-cost research to discover new ways to prevent and treat diseases
-
-![The Platform](assets/diagrams/layered-platform-architecture-diagram.png)
-
-It overcomes the traditional collaboration and data sharing barriers by encoding contributions through non-fungible tokens (NFTs). Using smart contracts, the platform will compensate all contributors with royalties.
+Our novel incentive structure overcomes the traditional collaboration and data sharing barriers by encoding contributions through non-fungible tokens (NFTs). Using smart contracts, the platform will compensate all contributors with royalties.
 
 ![The Value Chain](<assets/value-flow-chain (3).png>)
 
@@ -36,12 +54,13 @@ It overcomes the traditional collaboration and data sharing barriers by encoding
 
 Hey, you! 👀
 
-CureDAO is open to anyone interested in preventing suffering and death from chronic diseases and degenerative diseases.
-Our success in this mission will be an exponential function of the participation of people like you. 🚀
+The CureDAO community is open to anyone interested in preventing suffering and death from chronic diseases and 
+degenerative diseases.
+Success in this mission will be an exponential function of the participation of people like you. 🚀
 
 **👉** [**How To Get Involved**](how-to/)
 
-### Whitepaper
+### Read The Full Whitepaper
 
 1. [Introduction and Challenges](constitution/1-introduction-and-challenges.md)
 2. [Solution](constitution/2-solution.md)
@@ -78,10 +97,10 @@ The human body can be viewed as a black box with inputs (like diet, treatments, 
 * **Diagnostics** - Data mining and analysis to identify causes of illness
 * **Preventative medicine** - Predictive analytics and data analysis of genetic, lifestyle, and social circumstances to prevent disease
 * **Precision medicine** - Leveraging aggregate data to drive hyper-personalized care
-* **Medical research** - Data-driven medical and pharmacological research to cure disease and discover new treatments and medicines
-* **Reduction of adverse medication events** - Harnessing of big data to spot medication errors and flag potential adverse reactions
-* **Cost reduction** - Identification of value that drives better patient outcomes for long-term savings
-* **Population health** - Monitor big data to identify disease trends and health strategies based on demographics, geography, and socioeconomic
+* **Medical research** - Data-driven medical and pharmacological research to discover new treatments and medicines
+* **Reduction of adverse medication events** - Harnessing big data to spot medication errors and flag potential adverse reactions
+* **Cost reduction** - Driving better patient outcomes for long-term savings
+* **Population health** - Identify health strategies based on demographic, geographic, and socioeconomic trends
 
 ### Why Clinical Research Has Failed
 
@@ -165,15 +184,15 @@ The functional scope of the core platform includes:
 
 health data from different sources.
 
-### Primary goal
+#### Primary goal
 
 Create a basic foundational technology layer suitable for any digital health application that provides better interoperability, portability, availability, analysis, and data security.
 
-### Use Cases
+#### Use Cases
 
 * EHR Systems for healthcare providers
 * User-centered dashboards for personal health management
-* Data sharing with anyone
+* Data sharing with doctors, health coaches, or family members
 * Decentralized clinical trial platforms
 * Patient recruitment services for clinical trials
 * Citizen science platforms
@@ -183,8 +202,6 @@ Create a basic foundational technology layer suitable for any digital health app
 * Niche health applications with specific requirements or custom integrations
 
 ![framework diagram](assets/diagrams/layered-platform-architecture-diagram.png)
-
-
 
 The platform consists of two primary components:
 
@@ -204,11 +221,11 @@ The Unified Health application programming interface (API) includes an OpenAPI s
 Data from files or API requests can be mapped from many different proprietary formats
 into a standard schema.
 
-#### Data Ownership
+**Data Ownership**
 
 Data should be owned by the individual who generated it. It should remain under their control throughout the entire data life-cycle from generation to deletion.
 
-#### Data Compensation
+**Data Compensation**
 
 Value stream management allows the exchange of data for tokens.
 
@@ -237,26 +254,25 @@ Data Analysis Plugins will apply statistical and machine learning methods to the
 
 **Example Data Presentation Plugins**
 
-- [Outcome labels](plugins/outcome-labels-plugin/outcome-labels-plugin.md)
-- [Predictor search engines](plugins/predictor-search-engine-plugin/predictor-search-engine-plugin.md)
-- [Root cause analysis reports](plugins/root-cause-analysis-reports-plugin/1398-root-cause-analysis.html)
-- [Observational studies](plugins/observational-studies-plugin/observational-studies-plugin.md)
-- [Real-time decision support notifications](plugins/optomitron-real-time-decision-support-plugin/optomitron-real-time-notifications-plugin.md)
+* [Outcome Labels](plugins/outcome-labels-plugin/outcome-labels-plugin.md)
+* [Predictor Search Engines](plugins/predictor-search-engine-plugin/predictor-search-engine-plugin.md)
+* [Root Cause Analysis Reports](plugins/root-cause-analysis-reports-plugin/1398-root-cause-analysis.html)
+* [Observational Studies](plugins/observational-studies-plugin/observational-studies-plugin.md)
+* [Real-Time Decision Support Notifications](plugins/optomitron-real-time-decision-support-plugin/optomitron-real-time-notifications-plugin.md)
 
 ## ❤ Incentivization
 
 We use the DAO structure and NFT IP royalties to reward data sharing and open-source collaboration.
 
-## Incentive Alignment
+### Incentive Alignment
 
 This illustrates the flow of value between different stakeholders. Unlike traditional zero-sum games, CureDAO provides everyone with more value from participation than they have to put into it.
 
 ![Value flow chain](<assets/business/value-flow-chain (3).svg>)
 
-### 1. Incentives for Patients
+#### 1. Patients
 
-1. Actionable insights to prevent and mitigate illnesses.
-2. Income for the use of data for research and drug development. The data is encoded into non-fungible tokens (NFTs) and linked to the user's cryptographic wallet address. Using a smart contract, the user will receive an ongoing royalty share of the profits for any product developed using their data for research and development.
+Incentives for Patients to share their de-identified data will include:
 
 1. Actionable ways to prevent and mitigate chronic illnesses.
 2. The ability to license and earn a share of income for the use of their data for research and development by pharmaceutical companies and other businesses. NFTs will be linked to the user's cryptographic wallet address. Using a smart contract, the user will receive an ongoing royalty share of the profits for any product developed using their data for research and development.
@@ -269,20 +285,20 @@ Businesses housing data silos include health insurers, pharmacies, grocery deliv
 2. An on-site instance of the OAuth2 server to retrieve required data from their on-premise databases.
 3. Reduction in their employee healthcare costs (one of their most significant expenses)
 
-### 4. Incentives for Digital Health Businesses
+#### 4. Incentives for Digital Health Businesses
 
 1. Reduced costs of software development.
 2. Massive free marketing exposure through company branded plugins in the Plugin Marketplace.
 3. Revenue derived from their plugins in the Plugin Marketplace.
 
-### 5.Incentives for Disease Advocacy Non-Profit Organizations
+#### 5.Incentives for Disease Advocacy Non-Profit Organizations
 
 Disease advocacy nonprofits will benefit from promoting studies to their members by:
 
 1. Furtherance of their mission to reduce the incidence of chronic illnesses.
 2. Member engagement more productive than the traditional charity walk.
 
-### 6. Incentives for Government Health Agencies
+#### 6. Incentives for Government Health Agencies
 
 1. A reduction in healthcare costs due to discovering new ways to prevent and mitigate chronic illnesses.
 2. Furtherance of their stated reason for existence to protect and promote the general welfare.
@@ -290,7 +306,7 @@ Disease advocacy nonprofits will benefit from promoting studies to their members
 4. Cost-savings from international cost-sharing by using global open-source software.
 6. Epidemiological discoveries on the effectiveness of different public health regulations between nations.
 
-### 7. Incentives for Contributors to the Development of the Platform
+#### 7. Incentives for Contributors to the Development of the Platform
 
 1. Gitcoin Bounties for specific tasks
 2. Encoding git commits with NFTs entitling the developer to ongoing royalties in proportion to their contributions.
@@ -321,7 +337,7 @@ The CureDAO governance token is used to incentivize data sharing and open-source
 
 Tokens grant CureDAO [Citizen Scientists](constitution/5-organization.md) the right to decide how the DAO's resources are distributed.
 
-## Token Genesis
+### Token Genesis
 
 The goal of CureDAO is for every human on earth to share the natural experiments that define their existence. The world's population is projected to peak at 9.4 billion around 2070. To enable everyone to become a [Citizen Scientist](constitution/5-organization.md), 9.4 billion CureDAO tokens will be created.
 
@@ -329,13 +345,11 @@ The genesis distribution event will make 10% of CureDAO's total token supply ava
 
 ![](<.gitbook/assets/image (1).png>)
 
-Since CureDAO's genesis operates via a public auction, the community decides the initial token price. We estimate a minimum of $5,000,000 will be required to support the first iteration of 
-the platform.
+Since CureDAO's genesis operates via a public auction, the community decides the initial token price. We estimate a minimum of $5,000,000 will be required to support the first iteration of the platform.
 
 # 💰 Revenue
 
-CureDAO generates revenue streams to compensate IP and data contributors
-and sustain and grow the project. The biotech and pharmaceutical industries are two of the fastest-growing sectors of the U.S. economy.
+CureDAO generates revenue streams to compensate IP and data contributors and sustain and grow the project. The biotech and pharmaceutical industries are two of the fastest-growing sectors of the U.S. economy.
 
 ![sector-growth](assets/business/sector-growth-rates.png)
 
@@ -348,7 +362,7 @@ The primary sources of income include:
 2. Grants from governments modernizing their programs to take advantage of real-world data
 3. Digital health companies wishing to accelerate product development using existing white-label software or hosted software-as-a-service (SaaS) options
 
-### Hosted Software as a Service (SaaS)
+#### Hosted Software as a Service (SaaS)
 
 Digital health companies can save months of development time and tens of thousands of dollars by using our platform instead of reinventing the wheel. A usage-based subscription platform for health application developers would start at $0.50/end-user per month.
 
@@ -357,7 +371,7 @@ Digital health companies can save months of development time and tens of thousan
 Electronic health records (EHRs) can be used to support randomized controlled trials (RCTs). A [meta-analysis](https://pubmed.ncbi.nlm.nih.gov/30718353/) found that the per-patient cost in EHR-supported trials varied from [$44 to $2000](https://pubmed.ncbi.nlm.nih.gov/30718353/).
 Using NFTs, we can link donated data to the patient to receive ongoing royalty payments for the use of their data once new interventions reach the market.
 
-### Software Licensing
+#### Software Licensing
 
 Although the project core framework will be open-source for any non-commercial purpose. However, we will utilize a [Fair-code](https://faircode.io) or [Fair Source](https://fair.io/?a) licensing model to generate revenue when used by for-profit entities.
 Licensing fees will be negotiated such that a fraction of the profits generated by the licensee's project use.
@@ -368,34 +382,33 @@ A decentralized autonomous organization, or a "DAO," is an "organization" encode
 
 # 😷 Privacy
 
-CureDAO will use deidentification and obfuscated but
-equivalent data synthetically derived from actual patient data to protect privacy.
+CureDAO will use deidentification and obfuscated but equivalent data synthetically derived from actual patient data to protect privacy.
 
 ![de-identification](assets/privacy/deidentification.png)
 
-## De-identification Methods
+### De-identification Methods
 
 Data de-identification is the process of eliminating Personally Identifiable Data (PII) from any document or other
 media, including an individual's Protected Health Information (PHI).
 The HIPAA Safe Harbor Method is a precise standard for de-identifying personal health information when disclosed for secondary purposes.
 
-## Data De-identification Tools
+### Data De-identification Tools
 
-### 1. ARX Data Anonymization Tool
+#### 1. ARX Data Anonymization Tool
 
 [ARX](https://arx.deidentifier.org) is an open-source tool that anonymizes sensitive personal information. It supports a range of privacy and risk models, techniques for data transformation, and techniques to analyze the utility of output data.
 
-### 2. deid software package
+#### 2. deid software package
 
 The [deid software package](https://archive.physionet.org/physiotools/deid/) includes code and dictionaries that automatically locate and remove PHI in free text from medical records.
 
-### 3. Synthetic Patient Generation
+#### 3. Synthetic Patient Generation
 
 [Synthea](https://synthetichealth.github.io/synthea/) is an open-source, synthetic patient generator that models the medical history of artificial patients. Our mission is to provide high-quality, synthetic, realistic but not real patient data and associated health records covering every aspect of healthcare. The resulting data is free from cost, privacy, and security restrictions, enabling research with Health IT data otherwise legally or practically unavailable.
 
-# 🚗 Roadmap
+## 🚗 Roadmap
 
-## Q1/2022 Build the DAO
+### Q1/2022 Build the DAO
 
 * Create Whitepaper, Website, Media presence
 * Define collaborators and partners (DAO infrastructure, health data tech)
@@ -403,25 +416,22 @@ The [deid software package](https://archive.physionet.org/physiotools/deid/) inc
 * Build community, social media content
 * Fundraising phase (Genesis)
 
-## Q2/2022 Minimal Viable Product (MVP)
+### Q2/2022 Minimal Viable Product (MVP)
 
 * Collaborators vote for core features
 * Build MVP alongside use in showcase trial
-* Closed Testing with collaborators
+* Internal testing with collaborators
 * Release V1 of the Software Framework
-* Open Testing with partners
+* Open testing with partners
 
-## Q3/2022 Integration and Testing
+### Q3/2022 Integration and Testing
 
 * Integrate with other tech architecture (storage providers, data marketplaces, analysis software, etc. )
 * Integrate with operating health data standards and Electronic Health Record
 * Build showcase plugins
 * Release V2 of the Software Framework
-* Promote broader usage
 
-## Q4/2022 Build the Applications
-
-Accompany pilot programs and partners for applications in the fields:
+### Q4/2022 Applications pilots
 
 * Open shared health database for research access
 * Trials platform with participation royalty payback
@@ -429,12 +439,21 @@ Accompany pilot programs and partners for applications in the fields:
 * Algorithm and scores development
 * Data marketplaces
 
-## Q3/2023 Minimize time to develop new interventions
+### Q1/2023 SaaS Business, Plugins, Education
 
-* Manage personal health to prevent disease
-* Share health data to research
-* Get to know new insights
-* Take newly developed interventions
-* Educate loved ones about longer healthspan
+* Create plugin marketplace
+* Create No-code platform for instances/ connectors
+* Build hosted SaaS service for profit
+* Create documentation and education material
+* Promote broader usage
+
+
+
+## Do we have your attention?
+
+Join our Community on Discord: discord.gg/BbytmC3gay
+
+Our success is dependent on the participation of people like you 🚀
+
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
